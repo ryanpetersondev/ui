@@ -38,8 +38,8 @@ export async function ComponentSource({
   }
 
   if (src) {
-    const file = await fs.readFile(path.join(process.cwd(), src), "utf-8")
-    code = file
+    // const file = await fs.readFile(path.join(process.cwd(), src), "utf-8")
+    code = "Removed"
   }
 
   if (!code) {
